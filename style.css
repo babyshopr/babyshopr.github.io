@@ -30,8 +30,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default {
-  background-color: white;
-  border: none;
+  background-color: #fdfdfd;
+  background-color: #fff;
+  margin-top: 0;
+  /*border: none;*/
+}
+
+.navbar-nav>li>a {
+padding-top: 28px;
+padding-bottom: 10px;
 }
 
 .navbar-header button {
@@ -39,7 +46,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-right {
-  padding-top: 10px;
   font-size: 18px;
 }
 
