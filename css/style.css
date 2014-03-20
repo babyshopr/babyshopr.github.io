@@ -1,142 +1,108 @@
-/*
-.container-full {
-margin: 0 auto;
-width: 100%;
-min-height:100%;
-background-color:#110022;
-color:#eee;
-overflow:hidden;
-}
-
-.container-full a {
-color:#efefef;
-text-decoration:none;
-}
-*/
-
-html,body,footer {
-  height:100%;
+html,
+body,
+footer {
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.1;
 }
-
 .navbar {
   margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: red;
 }
-
 .navbar-default {
   background-color: #fdfdfd;
   background-color: #fff;
   margin-top: 0;
-  /*border: none;*/
 }
-
-.navbar-nav>li>a {
-padding-top: 28px;
-padding-bottom: 10px;
+.navbar-nav > li > a {
+  padding-top: 28px;
+  padding-bottom: 10px;
 }
-
 .navbar-header button {
   margin-top: 12px;
 }
-
 .navbar-right {
   font-size: 18px;
 }
-
 .navbar-right a {
   color: #A5A5A5;
   font-weight: 300;
 }
-
 .navbar-right a:hover {
   color: #622B9B;
   font-weight: 300;
 }
-
-.navbar-right li {
-}
-
 h1 {
   font-size: 30px;
-  margin-top: 24px;
+  margin-top: 20px;
 }
-
 h2 {
   font-size: 22px;
 }
-
 .tag-line {
   font-size: 22px;
   font-weight: 300;
 }
-
 .img-responsive {
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
-.iphone {
-  margin-top: 60px;
+.iphone-mobile {
+  background-color: #8E5CC2;
+  padding-top:40px;
 }
-
 #iphone-top {
+  margin-top: 60px;
   background-color: white;
   height: 230px;
 }
-
 #iphone-bottom {
   background-color: #8E5CC2;
   height: 236px;
 }
-
-#iphone-bottom-xs {
-  background-color: #8E5CC2;
-  height: 150px;
-}
-
 .description {
   margin-top: 10px;
   margin-bottom: 40px;
 }
-
 .app-store {
   margin-top: 10px;
 }
-
 #features-top {
   background-color: white;
   height: 150px;
-  /*border: 1px solid red;*/
 }
-
 #features-bottom {
   background-color: #F7F7F7;
-  /*min-height: 500px;*/
-  /*border: 1px solid blue;*/
 }
-
 .feature-img {
   margin-top: 40px;
-} 
-
+}
 .feature-img img {
   width: 220px;
   height: 220px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
-
 .feature-description {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 40px;
 }
-
 .footer {
   background-color: #622B9B;
   color: white;
@@ -144,7 +110,6 @@ h2 {
   font-weight: 300;
   padding: 10px;
 }
-
 .footer p {
   margin: 0;
 }
